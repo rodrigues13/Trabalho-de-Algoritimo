@@ -17,7 +17,7 @@ public class Exercicio_02 {
        float salarioAtual = 0;
        float salarioInicial = 0;
        double almento = 1.5;
-       
+       //
        for(int i =2005;i<2016;i++){
          
           
