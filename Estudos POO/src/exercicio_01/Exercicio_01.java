@@ -18,21 +18,21 @@ public class Exercicio_01 {
     public static void main(String[] args) {
        Scanner input = new Scanner(System.in);
        
-       int entrada;
-       int soma = 0;
-       int qtd = 0;
-       float media = 0;
-       int maior = Integer.MIN_VALUE;
-       int menor = Integer.MAX_VALUE;
-       int soma_num_pares = 0;
-       int qtd_impares = 0;
-       int cont1 = 0;
-       float media_par = 0;
+       double entrada;
+       double soma = 0;
+       double qtd = 0;
+       double media = 0;
+       double maior = Integer.MIN_VALUE;
+       double menor = Integer.MAX_VALUE;
+       double soma_num_pares = 0;
+       double qtd_impares = 0;
+       double cont1 = 0;
+       double media_par = 0;
                
        for (int i = 0; i<8;i++){
            
            System.out.println("Informe o Nº:");
-           entrada = input.nextInt();
+           entrada = input.nextDouble();
           
            soma+=entrada;
            qtd++;
@@ -60,10 +60,10 @@ public class Exercicio_01 {
         media_par = soma_num_pares / cont1;
         System.out.println("A soma dos Nº é: " + soma);
         System.out.println("Quantidade dos Nº digitados é: " + qtd);
-        System.out.println("Media dos Nº digitados é: " + media);
+        System.out.println("Media dos Nº digitados é: " +  media);
         System.out.println("Maior Nº " + maior);
         System.out.println("Menor Nº " + menor);
-        System.out.println("Media dos Nº pares é: "+media_par );
+        System.out.println("Media dos Nº pares é: "+ media_par );
         System.out.println("A porcentagem dos números ímpares entre todos os números lidos é; "+ ((qtd_impares*100)/qtd));
     }
 }
