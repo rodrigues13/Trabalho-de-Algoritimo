@@ -65,5 +65,6 @@ public class Exercicio_01 {
         System.out.println("Menor Nº " + menor);
         System.out.println("Media dos Nº pares é: "+ media_par );
         System.out.println("A porcentagem dos números ímpares entre todos os números lidos é; "+ ((qtd_impares*100)/qtd));
+        //
     }
 }
