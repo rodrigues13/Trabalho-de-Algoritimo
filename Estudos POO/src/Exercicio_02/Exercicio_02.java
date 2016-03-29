@@ -14,18 +14,16 @@ public class Exercicio_02 {
    public static void main(String[]args){
        Scanner input = new Scanner(System.in);
        
-       float salarioAtual = 0;
-       float salarioInicial = 0;
-       double almento = 1.5;
-       //
-       for(int i =2005;i<2016;i++){
-         
-          
-           
-           
-           
-           
-       }       
+       double salarioAtual = 1000;
+       double aumento = 0.015;
+      
+       for(int i =2006, j = 1;i<=2016;i++,j = j * 2){
+          double porcentagemAtual = j * aumento;
+          salarioAtual =  salarioAtual * ( 1 + ( j * aumento));
+ 
+       } 
+       
+       System.out.println("Salario atual é: " + salarioAtual);
        
    }
 }
