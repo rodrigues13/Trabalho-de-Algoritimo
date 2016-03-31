@@ -42,7 +42,7 @@ public class Exercicio_03 {
                 salario();
             } else if (entrada == 2) {
                 aposentadoria();
-            } else if(entrada < 0 & entrada >4) {
+            } else if(entrada <=0 & entrada >=4) {
                 System.out.println("Opção invalida !!!");
             }
         }
@@ -63,7 +63,7 @@ public class Exercicio_03 {
             salarioAtual = (salario * y) + salario;
             System.out.println("Seu salario atualizado é " + salarioAtual);
         } else {
-            System.out.println("Não avera aumento salarial para você !");
+            System.out.println("Não havera aumento salarial para você !");
         }
     }
 
